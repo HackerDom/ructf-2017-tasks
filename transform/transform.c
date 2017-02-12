@@ -49,7 +49,7 @@ void task(byte length)
 		printf(strncmp(FLAG_HASH, input, length) == 0 ? TRUE : FALSE);
 		goto end;
 	}
-	printf(TRUE);
+	printf(FALSE);
 end:
 	fflush(stdout);
 	exit(0);
