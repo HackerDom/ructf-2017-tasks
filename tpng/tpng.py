@@ -4,10 +4,10 @@ import struct
 
 
 def encode5(string):
-	bytes = string.encode('ascii')
+	bs = string.encode('ascii')
 	num = 0
-	for i in range(0, len(bytes)):
-		num = num * 256 + bytes[i]
+	for i in range(0, len(bs)):
+		num = num * 256 + bs[i]
 	return to5array(num)
 
 
