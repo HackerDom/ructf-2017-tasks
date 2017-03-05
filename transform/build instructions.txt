@@ -1,5 +1,0 @@
-Build with Visual Studio 2015 update 3
-General->Platform toolset = Visual Studio 2015 - Clang with Microsoft CodeGen (v140_clang_c2)
-C/C++->Optimization->Optimization = Minimize size
-C/C++->General->Debug Information Format = <empty string>
-Linker->Debugging->Generate Debug Info = No
