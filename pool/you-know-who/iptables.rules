@@ -1,0 +1,20 @@
+*filter
+:INPUT DROP [1:161]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [40:5004]
+-A INPUT -p tcp -m tcp --dport 1089 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1048 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1117 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1045 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1107 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1110 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1111 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1087 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1095 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1119 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1104 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 1079 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+COMMIT
