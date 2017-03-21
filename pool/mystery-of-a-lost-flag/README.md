@@ -8,6 +8,7 @@
   Where is the flag? docker pull mmessiah/mystery-of-a-lost-flag
   ```
 + __Флаг:__ RuCTF: 5a24a462dd5e2915277ea06438c3f10
++ __Запуск задания:__ Напомнить Максу сделать репозиторий mmessiah/mystery-of-a-lost-flag публичнымперед стартом.
 + __Решение:__
   1. Скачать образ
   2. Увидеть, что внутри ничего нет, а в docker history светится добавление файлов.
