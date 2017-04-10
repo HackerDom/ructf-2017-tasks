@@ -1,6 +1,9 @@
 import png
 import zlib
 import struct
+import math
+import os
+import check
 
 
 def encode5(string):
@@ -44,6 +47,7 @@ def insert_flag(flag, original_image_file_name, outfile):
 	encoded_flag = encode5(flag)
 	original_image_file = open(original_image_file_name, "rb")
 	original_image_bytes = original_image_file.read()
+	original_image_file.close()
 	all_pos = find_list_in_list(original_image_bytes, b'IDAT')
 	if len(all_pos) != 1:
 		raise Exception(f"IDAT count is {len(all_pos)}")
@@ -52,7 +56,35 @@ def insert_flag(flag, original_image_file_name, outfile):
 	original_idat_len = struct.unpack("!I", original_image_bytes[pos-4: pos])[0]
 	write_idat_with_flag(encoded_flag, original_image_file_name, outfile)
 	outfile.write(original_image_bytes[pos + original_idat_len + 8:])
+	outfile.close()
+
+'''
+import random
+def generate_flags():
+	random.seed(697)
+	prefs = ["Sol", "Ker", "Bot", "Fag", "Tem", "Xab"]
+	middles = ["ava", "iri", "olo", "ece", "ihi", "yjy"]
+	suffixes = ["kek", "mok", "tok", "sik", "wak", "puk"]
+	array = []
+	for p in prefs:
+		for m in middles:
+			for s in suffixes:
+				array.append("RuCTF:" + p + m + s)
+	random.shuffle(array)
+	return array
+'''
+
+def generate_original():
+	height = 51
+	pixels = [[[234, 215, 197] for j in range(0, int(math.ceil(height/3*5)))] for i in range(0, height)]
+	png.from_array(pixels , 'RGB').save("original.png")
 
 
 if __name__ == "__main__":
-	insert_flag("it is flag", "original.png", open("result.png", "wb"))
+	generate_original()
+	# flags = generate_flags()
+	flags = check.flags
+	allFlags = "[" + ', '.join(['"' + f + '"' for f in flags]) + "]"
+	script_dir = os.path.dirname(__file__)
+	for index, flag in enumerate(flags):
+		insert_flag(flag, "original.png", open(os.path.join(script_dir, os.path.join("generated", str(index+1).zfill(3) + ".png")), "wb"))
