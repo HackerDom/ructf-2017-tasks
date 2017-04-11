@@ -84,7 +84,7 @@ if __name__ == "__main__":
 	generate_original()
 	# flags = generate_flags()
 	flags = check.flags
-	allFlags = "[" + ', '.join(['"' + f + '"' for f in flags]) + "]"
+	# allFlags = "[" + ', '.join(['"' + f + '"' for f in flags]) + "]"
 	script_dir = os.path.dirname(__file__)
 	for index, flag in enumerate(flags):
-		insert_flag(flag, "original.png", open(os.path.join(script_dir, os.path.join("generated", str(index+1).zfill(3) + ".png")), "wb"))
+		insert_flag("RuCTF:" + flag, "original.png", open(os.path.join(script_dir, os.path.join("generated", str(index+1).zfill(3) + ".png")), "wb"))
