@@ -4,38 +4,37 @@ class Trac_check():
         self.second = second
         self.request = request
         self.n = 10
+        self.mem = dict()
 
     # X - количество шагов. Сверить с заданием
     def counting(self, X):
+        if X in self.mem:
+            return self.mem[X]
+
         if X > 1:
-            return (self.first + self.counting(X-1)) + self.counting(X-2)
+            value = self.first + self.counting(X-1) + self.counting(X-2)
         else:
-            return self.second
+            value = self.second
 
-        pass
+        self.mem[X] = value
+        return value
 
-    def Truc_check(self):
-        return self.request == "RuCTF_" + str(self.counting(self.n))
+    def check(self):
+        return self.request == str(self.counting(self.n))
 
+
+def check_for_id(id, answer):
+    first = id
+    second = int(id ** (3 / 2))
+    return Trac_check(first, second, answer).check()
 
 def check(attempt, context):
-    first = int(attempt.participant.id)
-    second = int(attempt.participant.id**(3/2))
-    request = str(attempt.answer)
-
-    a = Trac_check(first, second, request)
-    if a.Truc_check():
+    if check_for_id(attempt.participant.id, attempt.answer):
         return Checked(True)
-    else:
-        return Checked(False)
-        #  return CheckedPlagiarist(False)  # проверки на спысывание пока нет
 
+    potential_plagiarists = CheckedPlagiarist.get_potential_plagiarists(attempt.participant)
+    for participant in potential_plagiarists:
+        if check_for_id(participant.id, attempt.answer):
+            return CheckedPlagiarist(False, participant)
 
-
-
-if __name__ == "__main__":
-    first = 242222425
-    second = 10000001
-    request = "RuCTF_22205573489"
-    a = Trac_check(first, second, request)
-    print(a.Truc_check())
+    return Checked(False)

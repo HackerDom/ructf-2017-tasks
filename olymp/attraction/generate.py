@@ -1,3 +1,32 @@
+TITLE_TEMPLATES = {
+    'en': 'Attraction',
+    'ru': 'Аттракцион',
+}
+STATEMENT_TEMPLATES = {
+    'en':
+'''
+We found an old folder in the archives that dates back to year 1965.
+It has a line written in it which we still cannot decypher:
+
+```
+It took 5 years to develop this language? Just look at this:
+
+%s
+```
+''',
+    'ru':
+    '''
+Мы нашли старую папку в нашем архиве, датированную 1965 годом.
+Лишь одна запись пока что остается нам непонятной:
+
+```
+И этот язык разрабатывали более 5 лет? Вы только посмотрите на это:
+
+%s
+```
+''',
+}
+
 class Trac_code():
     def __init__(self, first, second):
         self.first = first
@@ -12,16 +41,12 @@ class Trac_code():
 def generate(context):
     participant = context['participant']
     task = context['task']
-    id = str(participant.id)
-    first = id
-    second = int(id ** (3 / 2))
-    a = Trac_code(first, second)
-    return TaskStatement('Аттаркцион для %s' % participant,
-                         'Мы нашли странную папку в нашем архиве. \n   На ней была надпись:"И этот язык разрабатывали более 5 лет? Пфф. !965г." ' + "\n" + a.get(), )
+    locale = context['locale']
 
-
-if __name__ == "__main__":
-    first = 242222425
-    second = 10000001
-    a = Trac_code(first, second)
-    print(a.get())
+    id = participant.id
+    first_param = id
+    second_param = int(id ** (3 / 2))
+    a = Trac_code(first_param, second_param)
+    trac_source = a.get()
+    return TaskStatement(TITLE_TEMPLATES[locale],
+                         STATEMENT_TEMPLATES[locale] % trac_source,)

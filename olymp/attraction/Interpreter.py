@@ -319,10 +319,11 @@ class Processor(object):
 if __name__ == "__main__":
     processor = Processor()
 
-    processor.initialize(
-        """#(ds,+1,(#(gb,X,1,(#(ad,#(ad,#(cl,+1,#(su,X,1)),{0}),#(cl,+1,#(su,X,2)))),{1}))))'
-        #(ss,+1,X)'
-        #(ps,RuCTF_#(cl,+1,{2}))'
-    """.format("242222425", "10000001", "10"))
+    # processor.initialize(
+    #     """#(ds,+1,(#(gb,X,1,(#(ad,#(ad,#(cl,+1,#(su,X,1)),{0}),#(cl,+1,#(su,X,2)))),{1}))))'
+    #     #(ss,+1,X)'
+    #     #(ps,RuCTF_#(cl,+1,{2}))'
+    # """.format("242222425", "10000001", "10"))
+    processor.initialize(input())
     processor.trace = False
     processor.run()
