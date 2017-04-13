@@ -7,4 +7,5 @@ statement_generator: !TextStatementGenerator
     title: WOW! So much hash
     template: Hashes! I like hashes! So much hashes! Which is mine?
 files:
-- path: so-much-hash.tgz
+- !File
+  path: so-much-hash.tgz

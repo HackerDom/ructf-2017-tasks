@@ -7,4 +7,5 @@ statement_generator: !TextStatementGenerator
     title: Pure Fun
     template: Just watch the scene!
 files:
-- path: can_you_guess_the_flag.jpg
+- !File
+  path: can_you_guess_the_flag.jpg
