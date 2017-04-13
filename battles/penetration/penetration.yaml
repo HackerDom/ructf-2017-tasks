@@ -5,4 +5,4 @@ checker: !TextChecker
     answer: AllCatsAreCaught
 statement_generator: !TextStatementGenerator
     title: Cats!
-    template: Go catch (some cats)[http://penetration.ructf.org]
+    template: Go catch [some cats](http://penetration.ructf.org)
