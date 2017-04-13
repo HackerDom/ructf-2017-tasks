@@ -1,5 +1,5 @@
 !Task
-name: fun
+name: fun-1
 max_score: 100
 checker: !TextChecker
     answer: you just got rick rolled

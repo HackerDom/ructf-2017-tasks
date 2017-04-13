@@ -1,0 +1,11 @@
+!Task
+name: fun-2
+max_score: 100
+checker: !TextChecker
+  answer: russian_101_stuff
+statement_generator: !TextStatementGenerator
+  title: What The Shell?
+  template: Don't get sturtled by this task 
+files:
+- !File
+  path: print_flag

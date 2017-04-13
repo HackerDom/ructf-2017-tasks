@@ -1,0 +1,5161 @@
+to flag
+ lt 90
+setc 9
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 3
+setc 8
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 3
+setc 8
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 3
+fd 7
+pd
+fd 3
+pu
+fd 73
+pd
+fd 3
+pu
+fd 14
+pd
+fd 3
+pu
+fd 38
+pd
+fd 3
+pu
+fd 21
+pd
+fd 3
+pu
+fd 26
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 22
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 22
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+setc 9
+fd 51
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 3
+fd 7
+pd
+fd 3
+pu
+fd 73
+pd
+fd 2
+pu
+fd 11
+pd
+fd 1
+pu
+fd 3
+pd
+fd 2
+pu
+fd 23
+pd
+fd 1
+pu
+fd 16
+pd
+fd 2
+pu
+fd 22
+pd
+fd 2
+pu
+fd 26
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 5
+pd
+fd 2
+pu
+fd 5
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 5
+pd
+fd 2
+pu
+fd 5
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+setc 8
+fd 51
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 3
+fd 6
+pd
+fd 4
+pu
+fd 85
+pd
+fd 2
+pu
+fd 27
+pd
+fd 2
+pu
+fd 16
+pd
+fd 2
+pu
+fd 22
+pd
+fd 2
+pu
+fd 26
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+setc 6
+fd 51
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 5
+fd 6
+pd
+fd 5
+pu
+fd 84
+pd
+fd 2
+pu
+fd 27
+pd
+fd 2
+pu
+fd 16
+pd
+fd 2
+pu
+fd 22
+pd
+fd 2
+pu
+fd 26
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+setc 7
+fd 52
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 5
+fd 6
+pd
+fd 5
+pu
+fd 1
+pd
+fd 18
+pu
+fd 2
+pd
+fd 5
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 11
+pu
+fd 2
+pd
+fd 5
+pu
+fd 4
+pd
+fd 8
+pu
+fd 1
+pd
+fd 17
+pu
+fd 1
+pd
+fd 16
+pu
+fd 2
+pd
+fd 7
+pu
+fd 4
+pd
+fd 5
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 7
+pu
+fd 2
+pd
+fd 5
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 5
+pu
+fd 3
+pd
+fd 15
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+setc 6
+fd 52
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 5
+fd 5
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 5
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 5
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 2
+pu
+fd 7
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+setc 7
+fd 52
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 5
+fd 5
+pd
+fd 7
+pu
+fd 2
+pd
+fd 6
+pu
+fd 1
+pd
+fd 2
+pu
+fd 1
+pd
+fd 10
+pu
+fd 3
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 7
+pu
+fd 4
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 6
+pd
+fd 2
+pu
+fd 2
+pd
+fd 10
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+setc 7
+fd 52
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 5
+fd 5
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 2
+pd
+fd 9
+pu
+fd 1
+pd
+fd 3
+pu
+fd 5
+pd
+fd 4
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 8
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 6
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 6
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 5
+pu
+fd 20
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 16
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+setc 5
+fd 61
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 7
+fd 4
+pd
+fd 2
+pu
+fd 4
+pd
+fd 2
+pu
+fd 3
+pd
+fd 7
+pu
+fd 2
+pd
+fd 3
+pu
+fd 7
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 8
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 4
+pu
+fd 8
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 20
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 16
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+setc 5
+fd 61
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 7
+fd 4
+pd
+fd 2
+pu
+fd 4
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 3
+pu
+fd 2
+pd
+fd 4
+pu
+fd 1
+pd
+fd 6
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 4
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 4
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 4
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 10
+pd
+fd 7
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 4
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 2
+pu
+fd 2
+pd
+fd 6
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 1
+pd
+fd 3
+pu
+fd 7
+pd
+fd 4
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+fd 2
+pd
+fd 2
+pu
+setc 4
+fd 52
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 7
+fd 3
+pd
+fd 4
+pu
+fd 2
+pd
+fd 5
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 3
+pd
+fd 5
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 12
+pu
+fd 1
+pd
+fd 5
+pu
+fd 5
+pd
+fd 6
+pu
+fd 2
+pd
+fd 5
+pu
+fd 1
+pd
+fd 36
+pu
+fd 6
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 27
+pu
+fd 2
+pd
+fd 10
+pu
+fd 3
+pd
+fd 6
+pu
+fd 3
+pd
+fd 3
+pu
+fd 4
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 5
+pu
+fd 2
+pd
+fd 3
+pu
+fd 1
+pd
+fd 3
+pu
+setc 2
+fd 51
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 7
+fd 68
+pd
+fd 3
+pu
+fd 40
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 58
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 3
+pd
+fd 2
+pu
+setc 5
+fd 132
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 7
+fd 68
+pd
+fd 3
+pu
+fd 40
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 58
+pd
+fd 2
+pu
+fd 3
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+setc 1
+fd 133
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+fd 68
+pd
+fd 3
+pu
+fd 40
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 59
+pd
+fd 3
+pu
+fd 2
+pd
+fd 2
+pu
+fd 3
+pd
+fd 2
+pu
+setc 3
+fd 133
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+fd 67
+pd
+fd 5
+pu
+fd 39
+pd
+fd 6
+pu
+fd 60
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+setc 3
+fd 134
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 3
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 2
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 2
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 1
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 2
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 9
+setc 1
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 1
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 1
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 1
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 11
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 106
+pd
+fd 7
+pu
+setc 7
+fd 209
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 29
+pd
+fd 15
+pu
+fd 60
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+setc 7
+fd 208
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 31
+pd
+fd 7
+pu
+fd 2
+pd
+fd 6
+pu
+fd 57
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+setc 7
+fd 208
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 45
+pd
+fd 2
+pu
+fd 9
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+setc 7
+fd 208
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 42
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 41
+pd
+fd 5
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 42
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 42
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 42
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 3
+pd
+fd 7
+pu
+fd 3
+pd
+fd 7
+pu
+fd 9
+pd
+fd 7
+pu
+fd 3
+pd
+fd 24
+pu
+setc 7
+fd 211
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 7
+pd
+fd 4
+pu
+fd 1
+pd
+fd 6
+pu
+fd 4
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 3
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 5
+pu
+fd 8
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 11
+pu
+fd 10
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 5
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 1
+pd
+fd 6
+pu
+fd 9
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 14
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 9
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 14
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 5
+pu
+fd 8
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 14
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 4
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 14
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 4
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 14
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 13
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+setc 7
+fd 216
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 13
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 2
+pu
+fd 4
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 8
+pu
+fd 3
+pd
+fd 5
+pu
+fd 5
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 2
+pd
+fd 3
+pu
+fd 3
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 31
+pd
+fd 7
+pu
+fd 7
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 1
+pd
+fd 10
+pu
+fd 3
+pd
+fd 6
+pu
+fd 1
+pd
+fd 4
+pu
+fd 5
+pd
+fd 8
+pu
+fd 3
+pd
+fd 6
+pu
+fd 6
+pd
+fd 4
+pu
+setc 7
+fd 205
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 29
+pd
+fd 11
+pu
+fd 6
+pd
+fd 6
+pu
+fd 4
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 9
+pd
+fd 7
+pu
+fd 8
+pd
+fd 5
+pu
+fd 3
+pd
+fd 10
+pu
+setc 7
+fd 213
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 167
+pd
+fd 4
+pu
+fd 23
+pd
+fd 4
+pu
+fd 74
+pd
+fd 7
+pu
+fd 4
+pd
+fd 7
+pu
+setc 7
+fd 32
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 29
+pd
+fd 15
+pu
+fd 58
+pd
+fd 4
+pu
+fd 58
+pd
+fd 7
+pu
+fd 20
+pd
+fd 7
+pu
+fd 72
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 1
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+setc 7
+fd 31
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 31
+pd
+fd 7
+pu
+fd 2
+pd
+fd 6
+pu
+fd 56
+pd
+fd 5
+pu
+fd 59
+pd
+fd 5
+pu
+fd 9
+pd
+fd 6
+pu
+fd 7
+pd
+fd 5
+pu
+fd 71
+pd
+fd 4
+pu
+fd 3
+pd
+fd 8
+pu
+fd 3
+pd
+fd 4
+pu
+setc 7
+fd 31
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 55
+pd
+fd 5
+pu
+fd 60
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 1
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 40
+pd
+fd 2
+pu
+fd 29
+pd
+fd 4
+pu
+fd 3
+pd
+fd 8
+pu
+fd 3
+pd
+fd 4
+pu
+setc 7
+fd 31
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 54
+pd
+fd 4
+pu
+fd 61
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 38
+pd
+fd 4
+pu
+fd 28
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 119
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 37
+pd
+fd 5
+pu
+fd 28
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 119
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 38
+pd
+fd 4
+pu
+fd 28
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 119
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 38
+pd
+fd 4
+pu
+fd 28
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 119
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 38
+pd
+fd 4
+pu
+fd 28
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 3
+pd
+fd 7
+pu
+fd 3
+pd
+fd 7
+pu
+fd 7
+pd
+fd 8
+pu
+fd 6
+pd
+fd 8
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 7
+pu
+fd 8
+pd
+fd 4
+pu
+fd 2
+pd
+fd 7
+pu
+fd 25
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 25
+pd
+fd 8
+pu
+fd 2
+pd
+fd 19
+pu
+fd 3
+pd
+fd 7
+pu
+fd 3
+pd
+fd 23
+pu
+setc 7
+fd 34
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 7
+pu
+fd 5
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 4
+pd
+fd 7
+pu
+fd 1
+pd
+fd 9
+pu
+fd 24
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 24
+pd
+fd 4
+pu
+fd 1
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 3
+pd
+fd 5
+pu
+fd 5
+pd
+fd 4
+pu
+fd 3
+pd
+fd 5
+pu
+fd 5
+pd
+fd 8
+pu
+fd 2
+pd
+fd 5
+pu
+fd 24
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 23
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 5
+pu
+fd 8
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 11
+pu
+fd 10
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 1
+pd
+fd 6
+pu
+fd 9
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 5
+pu
+fd 9
+pd
+fd 5
+pu
+fd 10
+pd
+fd 4
+pu
+fd 13
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 23
+pd
+fd 5
+pu
+fd 10
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 9
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 6
+pu
+fd 8
+pd
+fd 6
+pu
+fd 9
+pd
+fd 4
+pu
+fd 12
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 23
+pd
+fd 6
+pu
+fd 9
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 3
+pd
+fd 5
+pu
+fd 8
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 8
+pu
+fd 6
+pd
+fd 8
+pu
+fd 6
+pd
+fd 4
+pu
+fd 8
+pd
+fd 9
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 24
+pd
+fd 8
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 4
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 8
+pd
+fd 7
+pu
+fd 7
+pd
+fd 7
+pu
+fd 5
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 2
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 26
+pd
+fd 7
+pu
+fd 5
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 4
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 10
+pd
+fd 6
+pu
+fd 8
+pd
+fd 6
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 28
+pd
+fd 6
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 12
+pd
+fd 5
+pu
+fd 9
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 30
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 7
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 4
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 1
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 22
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 6
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 1
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 5
+pd
+fd 5
+pu
+fd 4
+pd
+fd 4
+pu
+fd 5
+pd
+fd 4
+pu
+fd 22
+pd
+fd 3
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 4
+pu
+fd 8
+pd
+fd 4
+pu
+fd 5
+pd
+fd 5
+pu
+fd 6
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 32
+pd
+fd 5
+pu
+fd 7
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 3
+pd
+fd 8
+pu
+fd 2
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 2
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 4
+pd
+fd 5
+pu
+fd 3
+pd
+fd 5
+pu
+fd 3
+pd
+fd 6
+pu
+fd 5
+pd
+fd 4
+pu
+fd 6
+pd
+fd 5
+pu
+fd 23
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 3
+pd
+fd 4
+pu
+fd 6
+pd
+fd 4
+pu
+fd 22
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 4
+pd
+fd 4
+pu
+fd 2
+pd
+fd 3
+pu
+fd 3
+pd
+fd 5
+pu
+fd 3
+pd
+fd 8
+pu
+fd 4
+pd
+fd 4
+pu
+fd 7
+pd
+fd 4
+pu
+setc 7
+fd 39
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 31
+pd
+fd 7
+pu
+fd 7
+pd
+fd 5
+pu
+fd 5
+pd
+fd 5
+pu
+fd 1
+pd
+fd 10
+pu
+fd 1
+pd
+fd 5
+pu
+fd 2
+pd
+fd 4
+pu
+fd 3
+pd
+fd 5
+pu
+fd 2
+pd
+fd 4
+pu
+fd 4
+pd
+fd 6
+pu
+fd 3
+pd
+fd 17
+pu
+fd 1
+pd
+fd 6
+pu
+fd 4
+pd
+fd 7
+pu
+fd 21
+pd
+fd 6
+pu
+fd 6
+pd
+fd 4
+pu
+fd 1
+pd
+fd 4
+pu
+fd 6
+pd
+fd 6
+pu
+fd 21
+pd
+fd 5
+pu
+fd 2
+pd
+fd 4
+pu
+fd 5
+pd
+fd 8
+pu
+fd 5
+pd
+fd 5
+pu
+fd 1
+pd
+fd 10
+pu
+fd 2
+pd
+fd 6
+pu
+fd 5
+pd
+fd 6
+pu
+setc 7
+fd 38
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 29
+pd
+fd 11
+pu
+fd 6
+pd
+fd 6
+pu
+fd 4
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 5
+pd
+fd 10
+pu
+fd 4
+pd
+fd 10
+pu
+fd 3
+pd
+fd 10
+pu
+fd 3
+pd
+fd 6
+pu
+fd 2
+pd
+fd 16
+pu
+fd 1
+pd
+fd 9
+pu
+fd 18
+pd
+fd 10
+pu
+fd 5
+pd
+fd 6
+pu
+fd 6
+pd
+fd 10
+pu
+fd 19
+pd
+fd 10
+pu
+fd 7
+pd
+fd 5
+pu
+fd 8
+pd
+fd 6
+pu
+fd 2
+pd
+fd 3
+pu
+fd 4
+pd
+fd 10
+pu
+fd 1
+pd
+fd 10
+pu
+setc 7
+fd 36
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+fd 145
+pd
+fd 20
+pu
+fd 35
+pd
+fd 20
+pu
+setc 7
+fd 102
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+setc 7
+fd 322
+lt 90
+ fd 1
+ lt 90
+ fd 322
+ lt 180
+ wait 500
+end
+flag
+
