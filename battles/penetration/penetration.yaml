@@ -1,0 +1,8 @@
+!Task
+name: web
+max_score: 100
+checker: !TextChecker
+    answer: AllCatsAreCaught
+statement_generator: !TextStatementGenerator
+    title: Cats!
+    template: Go catch (some cats)[http://penetration.ructf.org]

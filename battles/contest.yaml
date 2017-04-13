@@ -5,7 +5,7 @@ registration_type: Open
 participation_mode: Individual
 start_time: 2017-04-14 16:00:00+5
 finish_time: 2017-04-14 17:00:00+5
-registration_start_time: 2017-04-14 14:00:00+5
+registration_start_time: 2017-04-14 10:00:00+5
 registration_finish_time: 2017-04-14 17:00:00+5  
 short_description: "Let the battles begin!"
 description: ""
@@ -16,6 +16,7 @@ task_set: !TaskSet
     url: git@github.com:HackerDom/ructf-2017-tasks.git
   task_paths:
   - battles/fun/fun.yaml
+  - battles/penetration/penetration.yaml
   - battles/turtle/turtle.yaml
   - battles/mystery-of-a-lost-flag/mystery-of-a-lost-flag.yaml
   - battles/so-much-hash/so-much-hash.yaml
