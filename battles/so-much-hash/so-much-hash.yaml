@@ -1,0 +1,10 @@
+!Task
+name: forensics-2
+max_score: 100
+checker: !TextChecker
+    answer: ReF1oGisSoHe1pFull 
+statement_generator: !TextStatementGenerator
+    title: WOW! So much hash
+    template: Hashes! I like hashes! So much hashes! Which is mine?
+files:
+- path: so-much-hash.tgz

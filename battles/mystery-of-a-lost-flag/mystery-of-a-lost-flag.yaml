@@ -1,0 +1,8 @@
+!Task
+name: forensics-1
+max_score: 100
+checker: !TextChecker
+    answer: 5a24a462dd5e2915277ea06438c3f10
+statement_generator: !TextStatementGenerator
+    title: Mystery of a lost flag
+    template: Where is the flag? `docker pull mmessiah/mystery-of-a-lost-flag`
