@@ -11,7 +11,7 @@ It has a line written in it which we still cannot decypher.
 `It took 5 years to develop this language? Just look at this: %s`
 ''',
     'ru':
-    '''
+'''
 Мы нашли старую папку в нашем архиве, датированную 1965 годом.
 Лишь одна запись пока что остается нам непонятной.
 
