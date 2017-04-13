@@ -38,3 +38,8 @@ def check(attempt, context):
             return CheckedPlagiarist(False, participant)
 
     return Checked(False)
+
+if __name__ == '__main__':
+    id = int(input('Id: '))
+    answer = input('Answer: ')
+    print(check_for_id(id, answer))
