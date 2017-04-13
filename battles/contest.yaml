@@ -16,8 +16,8 @@ task_set: !TaskSet
     url: git@github.com:HackerDom/ructf-2017-tasks.git
   task_paths:
   - battles/fun/fun.yaml
-  - battles/penetration/penetration.yaml
   - battles/turtle/turtle.yaml
   - battles/mystery-of-a-lost-flag/mystery-of-a-lost-flag.yaml
   - battles/so-much-hash/so-much-hash.yaml
+  - battles/penetration/penetration.yaml
 
