@@ -1,0 +1,19 @@
+!TaskBasedContest
+name: RuCTF 2017 Olympiad
+is_visible_in_list: true
+registration_type: Closed
+participation_mode: Individual
+start_time: 2017-04-15 10:00:00+5
+finish_time: 2017-04-15 14:00:00+5
+registration_start_time: null
+registration_finish_time: null
+short_description: ""
+description: ""
+tasks_grouping: One by one
+task_opening_policy: All
+task_set: !TaskSet
+  context: !GitContext
+    url: git@github.com:HackerDom/ructf-2017-tasks.git
+  task_paths:
+  - olymp/tpng/tpng.yaml
+  - olymp/attraction/attraction.yaml
