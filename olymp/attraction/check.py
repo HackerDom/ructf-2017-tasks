@@ -2,7 +2,7 @@ class Trac_check():
     def __init__(self, first, second, request):
         self.first = first
         self.second = second
-        self.request = request
+        self.request = request.lstrip('RuCTF_')
         self.n = 10
         self.mem = dict()
 
