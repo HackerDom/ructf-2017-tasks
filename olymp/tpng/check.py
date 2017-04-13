@@ -4,6 +4,6 @@ flags = ["Temolokek", "Xabecetok", "Kerihimok", "Botavasik", "Temiriwak", "Fagec
 def check(attempt, context):
 	if attempt.answer == flags[attempt.participant.id]:
 		return Checked(True)
-	if attempt.answer in list:
+	if attempt.answer in flags:
 		return CheckedPlagiarist(False, flags.index(attempt.answer))
 	return Checked(False)

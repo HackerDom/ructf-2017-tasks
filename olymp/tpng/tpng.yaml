@@ -5,3 +5,7 @@ checker: !SimplePyChecker
   source_path: check.py
 statement_generator: !SimplePyStatementGenerator
   source_path: generate.py
+files:
+- !File
+  path: generated/*.png
+  is_private: True
