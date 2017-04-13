@@ -1,0 +1,10 @@
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+.center-block {
+    margin-bottom: 20px;
+    background: #eee;
+}
