@@ -1,0 +1,10 @@
+!Task
+name: fun
+max_score: 100
+checker: !TextChecker
+    answer: you just got rick rolled
+statement_generator: !TextStatementGenerator
+    title: Pure Fun
+    template: Just watch the scene!
+files:
+- path: can_you_guess_the_flag.jpg
