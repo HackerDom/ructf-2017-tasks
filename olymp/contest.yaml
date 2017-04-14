@@ -16,5 +16,6 @@ task_set: !TaskSet
     url: git@github.com:HackerDom/ructf-2017-tasks.git
   task_paths:
   - olymp/casements/casements.yaml
+  - olymp/mutiny/mutiny.yaml
   - olymp/tpng/tpng.yaml
   - olymp/attraction/attraction.yaml
