@@ -57,7 +57,7 @@ def set_username(resp, username):
 def get_images(username):
     images = [] + users[username].images
     if username.startswith('m00t_'):
-        images = users[username.lstrip('m00t_')].images + images
+        images = users[username[5:]].images + images
     else:
         images = users['m00t_' + username].images + images
     return images[:MAX_IMAGES_ON_PAGE]
@@ -123,4 +123,4 @@ def addimg():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=80)
+    app.run(host="0.0.0.0", port=80, threaded=True)
