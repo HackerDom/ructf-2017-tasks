@@ -1,5 +1,5 @@
 !TaskBasedContest
-name: Olympiad
+name: Olympiad (Rated)
 is_visible_in_list: true
 registration_type: Closed
 participation_mode: Individual
