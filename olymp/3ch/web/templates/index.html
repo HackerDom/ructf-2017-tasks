@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3ch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to 3ch</h1>
+      {% if content.motto %}
+        <h2>{{ content.motto }}</h2>
+      {% endif %}
+
+      {% for image in content.images %}
+        <div class="alert alert-info" role="alert">
+          By {{ image.author }}
+        </div>
+        <div class="centered">
+          <img src="{{ image.src }}">
+        </div>
+      {% endfor %}
+
+      <h3>Add image</h3>
+      <form method="get" action="addimg">
+        <div class="form-group">
+          <label for="src">Image url</label>
+          <input type="text" class="form-control" id="src" name="src" >
+        </div>
+        <button type="submit" class="btn btn-primary">Send image url</button>
+      </form>
+
+      <h3>Change Password</h3>
+      <form method="get" action="chpasswd">
+        <div class="form-group">
+          <label for="new_passwd">New password</label>
+          <input type="text" class="form-control" id="new_passwd" name="new_passwd" >
+        </div>
+        <button type="submit" class="btn btn-primary">Change</button>
+      </form>
+    </div>
+  </body>
+</html>
