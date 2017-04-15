@@ -17,12 +17,11 @@ against you or against a candidate you voted for is unpleasant, so everyone
 decided to make the voting using
 [MixNet](https://en.wikipedia.org/wiki/Mix_network) protocol.
 
-Candidate number _i_ generated a key pair for the asymmetric encryption
-algorithm _E<sub>i</sub>_ and then gives their open key to all voters.
+Candidate number i generated a key pair for the asymmetric encryption
+algorithm Ei and then gives their open key to all voters.
 
-Voter, decided to vote for the candidate _x_, generates {mixer_count} numbers
-_r<sub>j</sub>_, calculates the function
-_E<sub>1</sub>(E<sub>2</sub>(...E<sub>m - 1</sub>(E<sub>m</sub>(_x_ + _r<sub>m</sub>_) + _r<sub>m - 1</sub>_)...))
+Voter, decided to vote for the candidate x, generates {mixer_count} numbers
+rj, calculates the function E1(E2(...E{m - 1}(Em(x + _rm) + r{m - 1})...))
 and gives the result to the first and the second candidates.
 
 The first candidate, when given {voter_count} votes, decrypts them all,
@@ -62,13 +61,12 @@ so that the property above holds? Candidates always act independently.
 провести голосование с использованием схемы
 [MixNet](https://en.wikipedia.org/wiki/Mix_network).
 
-Кандидат номер _i_ генерирует пару ключей для аcсиметричного алгоритма
-шифрования _E<sub>i</sub>_, затем отдает открытый ключ всем голосующим.
+Кандидат номер i генерирует пару ключей для аcсиметричного алгоритма
+шифрования Ei, затем отдает открытый ключ всем голосующим.
 
-Голосующий, решивший, что он голосует за кандидата _x_, генерирует
-{mixer_count} чисел _r<sub>j</sub>_, вычисляет функцию
-_E<sub>1</sub>(E<sub>2</sub>(...E<sub>m - 1</sub>(E<sub>m</sub>(_x_ + _r<sub>m</sub>_) + _r<sub>m - 1</sub>_)...))
-и передает ее 1 и 2 кандидатам.
+Голосующий, решивший, что он голосует за кандидата x, генерирует
+{mixer_count} чисел rj, вычисляет функцию
+E1(E2(...E{m - 1}(Em(x + _rm) + r{m - 1})...)) и передает ее 1 и 2 кандидатам.
 
 Первый кандидат, получив {voter_count} голосов, расшифровывает все сообщения,
 переставляет их случайным образом и передает второму и третьему кандидатам.
@@ -80,8 +78,8 @@ _E<sub>1</sub>(E<sub>2</sub>(...E<sub>m - 1</sub>(E<sub>m</sub>(_x_ + _r<sub>m</
 
 В такой схеме кандидаты могут схитрить и подменить проходящие через них
 сообщения, увеличив количество голосов за себя. Чтобы этого не допустить,
-было решено при передаче голосов от кандидата _i_ к кандидату _i + 1_
-просить кандидата _i_ доказать подлинность некоторого количества голосов.
+было решено при передаче голосов от кандидата i к кандидату i + 1
+просить кандидата i доказать подлинность некоторого количества голосов.
 Так как все кандидаты равны, всем предлагает проверять одинаковое количество
 голосов.
 
