@@ -10,7 +10,48 @@ TITLE_TEMPLATES = {
 STATEMENT_TEMPLATES = {
     'en':
 '''
-TODO
+The time has come to elect a new captain on the space ship and {mixer_count}
+crew members are running for the position. The rest {voter_count} inhabitants
+now have to vote for one of the candidates. Knowing that someone voted
+against you or against a candidate you voted for is unpleasant, so everyone
+decided to make the voting using
+[MixNet](https://en.wikipedia.org/wiki/Mix_network) protocol.
+
+Candidate number _i_ generated a key pair for the asymmetric encryption
+algorithm _E<sub>i</sub>_ and then gives their open key to all voters.
+
+Voter, decided to vote for the candidate _x_, generates {mixer_count} numbers
+_r<sub>j</sub>_, calculates the function
+_E<sub>1</sub>(E<sub>2</sub>(...E<sub>m - 1</sub>(E<sub>m</sub>(_x_ + _r<sub>m</sub>_) + _r<sub>m - 1</sub>_)...))
+and gives the result to the first and the second candidates.
+
+The first candidate, when given {voter_count} votes, decrypts them all,
+applies a permutation and passes all pieces to the second and the third
+candidates. The second candidate decrypts all messages, permutes them and
+passes to the third and the fourth candidates. It goes on and on, until the
+candidate before the last one passes the information to the last and to
+all crew members. Last candidate decrypts messages, applies permutation
+and makes results public.
+
+This protocol is vulnerable to cunning candidates who are trying to cheat.
+They can change several messages, increasing their odds. In order to prevent
+such behavior, it was decided that upon transfer, candidate should prove
+that the part of their messages were passed unchanged. All candidates are
+equal, therefore it doesn't make sense to ask for a different number of
+checks for different candidates.
+
+Some of the crew members are troubled by this decision. If there's a
+leak and all communications get in the hands of the wrong person, there's
+a chance that this person will be able to trace the link between some
+person and a vote.
+
+Finally everyone agreed that the probability of tracing someone down
+should be less than {percent_chance}%, even if all the communications
+are available. For obvious reasons, the person's own vote is not
+interesting to trace.
+
+What is the maximal number of votes that can be verifies by the candidate
+so that the property above holds? Candidates always act independently.
 ''',
     'ru':
 '''
