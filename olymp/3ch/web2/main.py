@@ -58,23 +58,26 @@ if __name__ == "__main__":
         current_picture = (current_picture + 1) % len(PICTURES)
 
         for user in users:
-            print(user.username)
-            s = requests.Session()
-            response = s.get(ADDRESS + '/signin', params={'username' : user.username,
-                                                          'passwd' : user.passwds[0]})
+            try:
+                print(user.username)
+                s = requests.Session()
+                response = s.get(ADDRESS + '/signin', params={'username' : user.username,
+                                                              'passwd' : user.passwds[0]})
 
-            if response.status_code != requests.codes.ok:
-                print("Failed to login into user %s: server returned status %d" % (user.username, response.status_code))
-                continue
+                if response.status_code != requests.codes.ok:
+                    print("Failed to login into user %s: server returned status %d" % (user.username, response.status_code))
+                    continue
 
-            soup = bs(response.text, "lxml")
-            for image in soup.findAll("img"):
-                s.get(image["src"])
+                soup = bs(response.text, "lxml")
+                for image in soup.findAll("img"):
+                    s.get(image["src"])
 
 
-            response = s.get(ADDRESS + '/addimg', params={'src' : pic})
-            if response.status_code != requests.codes.ok:
-                print("Failed to add image: server returned status %d" % response.status_code)
-                continue
+                response = s.get(ADDRESS + '/addimg', params={'src' : pic})
+                if response.status_code != requests.codes.ok:
+                    print("Failed to add image: server returned status %d" % response.status_code)
+                    continue
 
-            time.sleep(DELAY_SECONDS)
+                time.sleep(DELAY_SECONDS)
+            except Exception e:
+                print(e)
