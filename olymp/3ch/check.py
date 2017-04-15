@@ -8,7 +8,7 @@ flags = [ 'RuCTF_FRNjPY7cCpsMKM75', 'RuCTF_0mA9W8hlM9D1q1Ow', 'RuCTF_il4zymzXvLT
 
 
 def check(attempt, context):
-        if attempt.answer == flags[attempt.participant.id]:
+        if attempt.answer == flags[attempt.participant.id % len(flags)]:
                 return Checked(True)
         if attempt.answer in flags:
                 return CheckedPlagiarist(False, flags.index(attempt.answer))

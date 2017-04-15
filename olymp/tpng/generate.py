@@ -24,7 +24,7 @@ def generate(context):
 	task = context['task']
 
 	private_files = sorted(TaskFile.get_private_files(task), key=lambda task_file: task_file.name)
-	private_file = private_files[participant.id]
+	private_file = private_files[participant.id % len(private_files)]
 	TaskFile.copy_file_for_participant(private_file, participant, "flag.png")
 
 	return TaskStatement(TITLE_TEMPLATES[locale], STATEMENT_TEMPLATES[locale])

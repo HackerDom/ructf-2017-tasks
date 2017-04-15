@@ -27,6 +27,6 @@ def generate(context):
     participant = context['participant']
     locale = context['locale']
 
-    flag_id = flag_ids[participant.id]
+    flag_id = flag_ids[participant.id % len(flag_ids)]
 
     return TaskStatement(TITLE_TEMPLATES[locale], STATEMENT_TEMPLATES[locale] % flag_id)
