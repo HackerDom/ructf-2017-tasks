@@ -21,7 +21,7 @@ Candidate number i generated a key pair for the asymmetric encryption
 algorithm Ei and then gives their open key to all voters.
 
 Voter, decided to vote for the candidate x, generates {mixer_count} numbers
-rj, calculates the function E1(E2(...E{m - 1}(Em(x + _rm) + r{m - 1})...))
+rj, calculates the function E1(E2(...E(m - 1)(Em(x + _rm) + r(m - 1))...))
 and gives the result to the first and the second candidates.
 
 The first candidate, when given {voter_count} votes, decrypts them all,
@@ -66,7 +66,7 @@ so that the property above holds? Candidates always act independently.
 
 Голосующий, решивший, что он голосует за кандидата x, генерирует
 {mixer_count} чисел rj, вычисляет функцию
-E1(E2(...E{m - 1}(Em(x + _rm) + r{m - 1})...)) и передает ее 1 и 2 кандидатам.
+E1(E2(...E(m - 1)(Em(x + _rm) + r(m - 1))...)) и передает ее 1 и 2 кандидатам.
 
 Первый кандидат, получив {voter_count} голосов, расшифровывает все сообщения,
 переставляет их случайным образом и передает второму и третьему кандидатам.
