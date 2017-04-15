@@ -55,12 +55,12 @@ def set_username(resp, username):
 
 
 def get_images(username):
-    images = [] + users[username].images
+    images = users[username].images
     if username.startswith('m00t_'):
-        images = users[username[5:]].images + images
+        images += users[username[5:]].images
     else:
-        images = users['m00t_' + username].images + images
-    return images[:MAX_IMAGES_ON_PAGE]
+        images += users['m00t_' + username].images
+    return list(reversed(images))[:MAX_IMAGES_ON_PAGE]
 
 
 @app.route("/")
