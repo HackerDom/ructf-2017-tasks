@@ -7,13 +7,13 @@ TITLE_TEMPLATES = {
 STATEMENT_TEMPLATES = {
     'en':
 '''
-[/r/elax a little bit.](3ch.ructf.org)
+[/r/elax a little bit.](http://3ch.ructf.org)
 
 `%s`
 ''',
     'ru':
 '''
-[/r/асслабся немного.](3ch.ructf.org)
+[/r/асслабся немного.](http://3ch.ructf.org)
 
 `%s`
 ''',
