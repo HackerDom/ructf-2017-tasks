@@ -2,13 +2,14 @@
 
 import os
 import time
+import sys
 
 from bs4 import BeautifulSoup as bs
 import requests
 
 
 USERS_FILE_LOCATION = 'users.txt'
-DELAY_SECONDS = 0.5
+DELAY_SECONDS = 60
 ADDRESS = os.environ.get('TASK_ADDRESS', 'http://3ch.ructf.org')
 PICTURES = [
     'https://lh6.ggpht.com/2J4ThT6bsPajr3LjwU4D4UyJ2DE45gIVIpNWf2OXRJL063NAarb_YVKv3DrXg3H-dCZe=w300',
@@ -60,6 +61,7 @@ if __name__ == "__main__":
         for user in users:
             try:
                 print(user.username)
+                sys.stderr.write("%s\n" % user.username)
                 s = requests.Session()
                 response = s.get(ADDRESS + '/signin', params={'username' : user.username,
                                                               'passwd' : user.passwds[0]})
@@ -77,7 +79,7 @@ if __name__ == "__main__":
                 if response.status_code != requests.codes.ok:
                     print("Failed to add image: server returned status %d" % response.status_code)
                     continue
-
-                time.sleep(DELAY_SECONDS)
-            except Exception e:
+            except Exception as e:
                 print(e)
+
+        time.sleep(DELAY_SECONDS)
