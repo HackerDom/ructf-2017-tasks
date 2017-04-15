@@ -55,7 +55,7 @@ def set_username(resp, username):
 
 
 def get_images(username):
-    images = users[username].images
+    images = list(users[username].images)
     if username.startswith('m00t_'):
         images += users[username[5:]].images
     else:
