@@ -50,35 +50,29 @@ def load_users(users_file):
     return result
 
 
-def get_signin_url(base_address, user):
-    return "%s/signin?username=%s&passwd=%s" % (base_address, user.username, user.passwds[0])
-
-
-def get_addimg_url(base_address, src):
-    return "%s/addimg?src=%s" % (base_address, src)
-
-
 if __name__ == "__main__":
     users = [ user for user in load_users(USERS_FILE_LOCATION) if user.username.startswith('m00t_') ]
-
 
     while True:
         pic = PICTURES[current_picture]
         current_picture = (current_picture + 1) % len(PICTURES)
 
         for user in users:
-            jar = requests.cookies.RequestsCookieJar()
-            response = requests.get(get_signin_url(ADDRESS, user), cookies=jar)
+            print(user.username)
+            s = requests.Session()
+            response = s.get(ADDRESS + '/signin', params={'username' : user.username,
+                                                          'passwd' : user.passwds[0]})
+
             if response.status_code != requests.codes.ok:
                 print("Failed to login into user %s: server returned status %d" % (user.username, response.status_code))
                 continue
 
             soup = bs(response.text, "lxml")
             for image in soup.findAll("img"):
-                requests.get(image["src"], cookies=jar)
+                s.get(image["src"])
 
 
-            response = requests.get(get_addimg_url(ADDRESS, pic), cookies=jar)
+            response = s.get(ADDRESS + '/addimg', params={'src' : pic})
             if response.status_code != requests.codes.ok:
                 print("Failed to add image: server returned status %d" % response.status_code)
                 continue
